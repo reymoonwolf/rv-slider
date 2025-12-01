@@ -8,4 +8,9 @@
 .main-button {
    display: none;
 }
+
+.card-item {
+   display: none;
+}
+
 </style>
