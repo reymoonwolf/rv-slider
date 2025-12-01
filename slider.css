@@ -30,7 +30,7 @@
 
 
 .b24-widget-button-wrapper {
-   display: none;
+   display: none !important;
 }
 
 </style>
