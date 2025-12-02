@@ -1,12 +1,12 @@
 <style>
 
 .info-wrap__card {
-   display: none;
+   display: none !important;
 }
 
 
 .main-button {
-   display: none;
+   display: none !important;
 }
 
 .card-item {
