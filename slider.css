@@ -10,22 +10,22 @@
 }
 
 .card-item {
-   display: none;
+   display: none !important;
 }
 
 
 .form-wrapper {
-   display: none;
+   display: none !important;
 }
 
 
 .social-link-footer {
-   display: none;
+   display: none !important;
 }
 
 
 .social-link {
-   display: none;
+   display: none !important;
 }
 
 
