@@ -1,36 +1,38 @@
-<style>
-
-.info-wrap__card {
-   display: none !important;
-}
-
-
-.main-button {
-   display: none !important;
-}
-
-.card-item {
-   display: none !important;
-}
-
-
-.form-wrapper {
-   display: none !important;
-}
-
-
-.social-link-footer {
-   display: none !important;
-}
-
-
-.social-link {
-   display: none !important;
-}
-
-
-.b24-widget-button-wrapper {
-   display: none !important;
-}
-
-</style>
+<!-- mosaic.footer.scripts -->
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs';
+</script>
+<!-- Инициализируем Swiper -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      slidesPerView: 5,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.sb-next',
+        prevEl: '.sb-prev',
+      },
+      breakpoints: {
+        // При ширине экрана 0–767px (обычные мобильные)
+        0: {
+          slidesPerView: 1.2,
+          spaceBetween: 16, // можно уменьшить отступ, если нужно
+        },
+        // Например, для планшетов или маленьких ноутбуков
+        768: {
+          slidesPerView: 5,
+          spaceBetween: 24,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 30,
+        },
+      },
+    });
+  });
+</script>
